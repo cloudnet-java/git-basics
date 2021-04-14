@@ -4,6 +4,14 @@ Hello
 hi
 whats going on
 
+<<<<<<< HEAD
 hdsafvhjgdsjfgjkfgvhjfjdgksdgsjkgjhvmzxjhg
 ugufs
 shbgdi
+=======
+ydefgdnhdwefg
+yrey34
+ye4yw34
+
+rehge4
+>>>>>>> 8864e3430f5f7bbf26eb0d00fb67e326c868042a
