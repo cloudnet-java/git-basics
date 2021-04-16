@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Number2word {
+public class NUm2Word {
     public static void main(String[] args){
         Scanner in =new Scanner(System.in);
         String[] textone={"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten",
@@ -16,11 +16,11 @@ public class Number2word {
         else if (num>=20 | num<=999){
             int[] numbers= Getdiv(num);
             if (numbers[0]!=0)
-                words=words+textone[numbers[0]]+" hundrad and ";
-            if (numbers[1]==1)
-                words=words+textone[numbers[1]*10+numbers[2]]+" ";
+                words=words+textone[numbers[0]]+" hundrad";
+            if (numbers[1]<=1)
+                words=words+" and "+textone[numbers[1]*10+numbers[2]]+" ";
             else if (numbers[1]>1){
-                words=words+texttwo[numbers[1]-2]+" ";
+                words=words+" and "+texttwo[numbers[1]-2]+" ";
                 if (numbers[2]>0)
                     words=words+textone[numbers[2]];
             }
